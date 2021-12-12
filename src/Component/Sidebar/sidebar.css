@@ -1,0 +1,36 @@
+.sidebarItem div {
+  color: #000000a8;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sidebarItem .iconStyle {
+  font-size: 23px;
+}
+
+.sidebarItem .row {
+  line-height: 26px;
+}
+
+.sidebarItem .varientColor {
+  color: black;
+}
+
+.sidebarItem .activeStyle {
+  color: rgb(224, 16, 16);
+  background-color: #e9ecef;
+}
+
+.sidebarItem .spandStyle {
+  background-color: rgb(224, 16, 16);
+  height: 42px;
+  width: 6px;
+}
+.sidebarItem .expandDiv {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-self: end;
+}

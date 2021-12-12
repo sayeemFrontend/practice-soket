@@ -1,0 +1,67 @@
+/* .mainBody {
+  background-color: rgb(233, 236, 239);
+} */
+
+/* .customInput input,
+.customInput select {
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  border: none;
+  color: gray;
+}
+.customInput select {
+  cursor: pointer;
+}
+.customInput :focus {
+  outline: none;
+}
+.customInput input::placeholder {
+  color: rgb(128 128 128 / 50%);
+} */
+
+.customInput {
+  width: 100%;
+  /* border: 1px solid gray; */
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 0px 10px;
+  height: 34px;
+  background-color: #f6f7f9;
+}
+
+/* .customLabel {
+  color: #5a5a5a;
+} */
+
+.customButton {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: #2ecc71;
+  border-radius: 5px;
+  color: #fffffff0;
+}
+
+/* .customPadding {
+  padding: 0px 100px 150px 100px;
+}
+.customMargin {
+  text-align: center;
+  margin-top: 80px;
+} */
+
+p,
+ul,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+.groupItemsX {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}

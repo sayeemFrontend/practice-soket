@@ -1,0 +1,44 @@
+.leftContent span {
+  font-size: 15px;
+}
+
+.rightContent {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  justify-content: space-between;
+}
+.rightContent .headerLarge li:nth-child(1) {
+  margin-bottom: -2px;
+}
+.rightContent li:nth-child(1) {
+  font-size: 15px;
+}
+.rightContent li:nth-child(2) {
+  font-size: 10px;
+}
+.rightContent .topbarDot {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 25px;
+}
+.rightContent .topbarDot svg {
+  font-size: 6px;
+  color: brown;
+}
+
+.popUp {
+  position: absolute;
+  top: 36px;
+  right: 8px;
+  background: rgb(126, 54, 54);
+  color: white;
+  width: 70px;
+  height: 95px;
+  z-index: 1;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
